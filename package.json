@@ -1,0 +1,18 @@
+{
+  "name": "podigg-evaluate-distance",
+  "version": "1.0.0",
+  "description": "Realism evaluation for generated datasets using distance functions",
+  "main": "bin/evaluate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.datasciencelab.ugent.be:4444/PoDiGG/podigg-evaluate-distance.git"
+  },
+  "author": "Ruben Taelman",
+  "license": "MIT",
+  "dependencies": {
+      "podigg": "1.0.0"
+  }
+}
