@@ -8,6 +8,7 @@ var actions = {
       'data/train_BE/region_cells.csv',
       'data/train_BE/region_edges.csv',
       {
+        'edges:post_cluster_max_intracluster_distancefactor': 20,
         'stops:stops': 583,
         'routes:routes': 4356,
         'connections:connections': 30011
@@ -18,7 +19,23 @@ var actions = {
       'data/bus_BE/region_cells.csv',
       'data/bus_BE/region_edges.csv',
       {
-        'stops:stops': 18112
+        'edges:post_cluster_max_intracluster_distancefactor': 20,
+        'edges:edges': 70000,
+        'stops:stops': 18112,
+        'routes:routes': 44487,
+        'connections:connections': 1733530
+      }).evaluateAll();
+  },
+  'train_NL': () => {
+    new Evaluator(
+      'data/train_NL/region_cells.csv',
+      'data/train_NL/region_edges.csv',
+      {
+        'edges:post_cluster_max_intracluster_distancefactor': 20,
+        'edges:edges': 1600,
+        'stops:stops': 595,
+        'routes:routes': 643,
+        'connections:connections': 229188
       }).evaluateAll();
   },
 };
