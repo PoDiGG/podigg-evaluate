@@ -40,7 +40,7 @@ done
 
 echo "--routes--"
 echo "amount,seconds"
-for routes in $routes; do
+for routes in $allroutes; do
     export GTFS_GEN_STOPS__STOPS=$basestops
     export GTFS_GEN_ROUTES__ROUTES=$routes
     export GTFS_GEN_CONNECTIONS__CONNECTIONS=$baseconnections
