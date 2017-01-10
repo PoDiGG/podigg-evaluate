@@ -10,8 +10,10 @@ var actions = {
       {
         'edges:post_cluster_max_intracluster_distancefactor': 20,
         'stops:stops': 583,
-        'routes:routes': 4356,
-        'connections:connections': 30011
+        'routes:routes': 362,
+        'connections:connections': 30011,
+        //'stops:factor_stops_post_edges': 0.6,
+        //'stops:edge_choice_power': 0.5,
       }).evaluateAll();
   },
   'bus_BE': () => {
