@@ -1,8 +1,10 @@
 {
   "seed": 1,
-  "stops:stops": 2844,
-  "routes:routes": 4175,
-  "connections:connections": 40633,
+  "stops:stops": 1000,
+  "routes:routes": 100,
+  "routes:min_route_length": 0,
+  "connections:connections": 10,
   "connections:time_initial": 1480550400000,
-  "connections:time_final": 1483142400000
+  "connections:time_final": 1483142400000,
+  "connections:delay_chance": 0.3
 }

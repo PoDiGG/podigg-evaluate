@@ -13,6 +13,7 @@
   "author": "Ruben Taelman",
   "license": "MIT",
   "dependencies": {
-      "podigg": "1.0.0"
+    "graph-coherence": "^1.0.0",
+    "podigg": "1.0.0"
   }
 }
