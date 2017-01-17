@@ -14,6 +14,10 @@ This script accepts the following parameters `bus_BE`, `train_BE` or `train_NL`,
 which respectively measures realism for the Belgian bus and railway company and the Dutch railway company.
 `data/data.zip` must be inzipped before these measurements can be initiated.
 
+## Performance
+
+`bin/performance.sh` will measure the execution times and memory usage for different parameters.
+
 ## Data sources
 All data sources from `data/data.zip` are created using the [Population density generator](https://github.com/PoDiGG/population-density-generator).
 
