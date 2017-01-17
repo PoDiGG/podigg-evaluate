@@ -2,10 +2,7 @@
 
 # Everything is generated between 20161201 and 20161331
 # graph-coherence nmbs-2016-12-1.ttl    0.984543934937036
-# 1: 0.9913395612500119
-# 2: 0.9887394188982925
-# 3:
-# 4:
+# 1: 0.9879878664074184
 
 function generate {
     rm -rf output_data
