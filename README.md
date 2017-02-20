@@ -18,6 +18,10 @@ which respectively measures realism for the Belgian bus and railway company and 
 
 `bin/performance.sh` will measure the execution times and memory usage for different parameters.
 
+## Correlation
+
+The correlation between population distributions and stops of areas are measured using `stats/correlation.r`.
+
 ## Data sources
 All data sources from `data/data.zip` are created using the [Population density generator](https://github.com/PoDiGG/population-density-generator).
 
